@@ -1,0 +1,25 @@
+.root{
+    -fx-background-image: url("background.jpg");
+}
+
+.label{
+    -fx-text-fill: white;
+    
+}
+
+.text{
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+}
+
+#bienvenida{
+   -fx-font-size: 32px;
+   -fx-font-family: "Arial Black";
+   -fx-fill: #818181;
+   -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+
+.button:hover {
+    -fx-background-color: white;
+}
